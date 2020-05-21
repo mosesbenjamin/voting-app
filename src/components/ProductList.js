@@ -37,7 +37,7 @@ class ProductList extends React.Component{
 
 	}
 	render(){
-			this.props.products.sort((a, b)=>{
+			this.props.state.sort((a, b)=>{
 									return b.likes - a.likes}
 									)
 			const renderedProduct = this.state.products.map((product)=>{
