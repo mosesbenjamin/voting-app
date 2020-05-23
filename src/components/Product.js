@@ -18,14 +18,14 @@ class Product extends React.Component{
 				<div className='middle aligned content'>
 					<div className='header'>
 						<a 
-						href="vote-up"
+						href="#vote-up"
 						onClick={this.handleUpVote}
 						className="icons">
 							<i className="large caret up icon" />
 								{votes}
 						</a>
 						<a 
-						href="vote-down"
+						href="#vote-down"
 						onClick={this.handleDownVote}
 						className="icons">
 							<i className="large caret down icon"/>
